@@ -16,8 +16,8 @@ The purpose of this analysis is to update the PlanMyTrip app in three areas.
 ## World Weather Analysis Results
 ### Weather Database
 - Generate 2000 random pairs of latitudes and longitudes. 
-- Identified 759 cities from the coordinates using the Python CityPy library.
-- Create and export a dataframe by retreiving city data using OpenWeather API. data points included: temp, humidity, cloudiness.
+- Identified 759 cities from the coordinates using the Python `citypy` library.
+- Create and export a dataframe by retreiving city data using OpenWeather API. data points included: temp, humidity, cloudiness, wind, and weather description.
   
 ![dataframe](/weather_database/weather_database_df.png)
 
